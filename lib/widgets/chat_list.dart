@@ -34,10 +34,16 @@ class Chatlist extends StatelessWidget {
                       children: [
                         Text(
                           chats[index].name,
-                          style: TextStyle(),
+                          style: TextStyle(
+                            color: Color(0XFF423e40),
+                          ),
                         ),
+                        SizedBox(height: 5,),
                         Text(
                           chats[index].message,
+                          style: TextStyle(
+                            color: Color(0xFF757477),
+                          ),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                         ),
@@ -46,6 +52,9 @@ class Chatlist extends StatelessWidget {
                   ),
                   Text(
                     chats[index].time,
+                    style: TextStyle(
+                      color: Color(0xFF454545),
+                    ),
                   ),
                 ],
               );
