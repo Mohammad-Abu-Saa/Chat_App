@@ -35,7 +35,9 @@ class FavoriteContacts extends StatelessWidget {
                       radius: 30,
                       backgroundImage: NetworkImage(chats[index].image),
                     ),
-                    SizedBox(height: 10,),
+                    SizedBox(
+                      height: 10,
+                    ),
                     Text(
                       chats[index].name,
                       style: TextStyle(

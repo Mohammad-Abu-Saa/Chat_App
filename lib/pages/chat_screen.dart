@@ -6,6 +6,7 @@ import 'package:flutter/rendering.dart';
 class ChatScreen extends StatelessWidget {
   final Color mainColor = const Color(0xFF4151b4);
   final Color textColor = const Color(0xFF979797);
+
   const ChatScreen({super.key});
 
   @override

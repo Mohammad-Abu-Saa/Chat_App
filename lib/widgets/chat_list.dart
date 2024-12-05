@@ -38,7 +38,9 @@ class Chatlist extends StatelessWidget {
                             color: Color(0XFF423e40),
                           ),
                         ),
-                        SizedBox(height: 5,),
+                        SizedBox(
+                          height: 5,
+                        ),
                         Text(
                           chats[index].message,
                           style: TextStyle(
