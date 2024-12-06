@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(12.0),
-          child: SingleChildScrollView(
+            child: SingleChildScrollView(
             child: Form(
               key: formKey,
               child: Column(
@@ -75,6 +75,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           },
                           icon: Icon(Icons.remove_red_eye_rounded),
                         ),
+                        labelText: "Password",
                         enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(20),
                             borderSide: BorderSide(
